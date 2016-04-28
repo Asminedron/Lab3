@@ -45,15 +45,9 @@ public class Main {
     }
 
     public static String replaceEmailAdress(String s){
-        Pattern p1 = Pattern.compile("\\.ru$");
-        Matcher m1 = p1.matcher(s);
-        Pattern p2 = Pattern.compile("\\.com$");
-        Matcher m2 = p2.matcher(s);
-        if (!(m1.find())&&!(m2.find()))
-            s=" Not correct string ";
-        else s=s.replaceAll("@+","@");
+            s = s.replaceAll("@+", "@");
         return s;
-    }
+        }
     public static void main(String[] args){
         File output = new File("out.txt");
         File input = new File("in.txt");
@@ -66,6 +60,22 @@ public class Main {
         }
 
         String s = new String(buffer);
+        String parts[] = s.split("\\|");
+        parts[0]=replaceName(parts[0]);
+        parts[1]=replaceAge(parts[1]);
+        parts[2]=replacePhoneNumber(parts[2]);
+        parts[3]=replaceEmailAdress(parts[3]);
+
+        s="";
+
+        for (int i=0;i<parts.length;i++)
+        {
+            if (i!=parts.length-1)
+                s=s+parts[i]+"|";
+            else s=s+parts[i];
+        }
+
+        System.out.println(s);
 
         buffer = s.toCharArray();
         try (FileWriter writer = new FileWriter(input))
