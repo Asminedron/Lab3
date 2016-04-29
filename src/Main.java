@@ -32,12 +32,12 @@ public class Main {
     }
 
     public static String replacePhoneNumber(String s){
+        s = s.replaceAll(" +", "");
         Pattern p =Pattern.compile("[\\D&&[^ +]]");
         Matcher m = p.matcher(s);
-        if (m.find())
+        if (m.find()|| s.length()>12)
             s=" Not correct string ";
         else {
-            s = s.replaceAll(" +", "");
             s = " " + s + " ";
             s = s.replaceAll(" ([+]\\d)(\\d{3})(\\d{3})(\\d{2})(\\d{2})", "$1 ($2) $3-$4-$5");
         }
@@ -46,6 +46,7 @@ public class Main {
 
     public static String replaceEmailAdress(String s){
             s = s.replaceAll("@+", "@");
+            s=s.replaceAll("(\\.+)","\\.");
         return s;
         }
     public static void main(String[] args){
