@@ -1,0 +1,107 @@
+html, body{
+	display:flex;
+	justify-content:center;
+	padding:0;
+	margin:0;
+}
+.main_header{
+	display:flex;
+	flex-direction: column;
+	background-image:url("../img/Header.png");
+    background-color: rgba(0, 0, 0, 0.7);
+    background-size: cover;
+	width: 1600px;
+	height:1238px;
+}
+.header_row{
+	display:flex;
+	margin-left:170px;
+	margin-right:50px;
+}
+.header_menu_img{
+	
+	margin-left:auto;
+}
+.header{
+	display:flex;
+	flex-direction: row;
+	
+}
+.header_content {
+    display: flex;
+	flex-direction:row;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: #fafafa;
+}
+.header_menu>a{
+	font-family: "Open Sans",sans-serif;
+    font-size: 16pt;
+    line-height: 1.65;
+    color: white;
+	text-transform: uppercase;
+	margin-right:48px;
+}
+
+ a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+   }
+   a:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание 
+                                   при наведении курсора мыши на ссылку */
+   }
+
+.header_panel{
+	display: flex;
+    flex-direction: column;
+    justify-content: left;
+   /* align-items: left;*/
+	
+}
+.header_panel_content{
+	display:flex;
+	flex-direction:column;
+	padding-top:90px;
+}
+.arrow_button{
+}
+.arrow{
+	display:flex;
+	align-items:center;
+	background-color: transparent;
+	border:0px;
+}
+.hpc_txt1{
+	font-family: "Raleway";
+    font-size: 45pt;
+    line-height: 1.65;
+    color: white;
+	text-transform: uppercase;
+	margin-bottom:0px;
+}
+.hpc_txt2{
+	font-family: "Open Sans",sans-serif;
+    font-size: 16pt;
+    line-height: 1.65;
+    color: white;
+}
+.shapers{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content:flex-start;
+	margin-top:90px;
+}
+.shape{
+	display:flex;
+	align-items:center;
+	background-color: transparent;
+	border:0px;
+}
+	

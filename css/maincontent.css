@@ -1,0 +1,218 @@
+.main_content{
+	display:flex;
+	flex-direction:column;
+	width:100%;
+}
+.zero{
+	display:flex;
+	justify-content:center;
+	align_content:center;
+	margin-left:50%;
+}
+.box-2{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	margin-right:100px;
+	height:390px;
+}
+.b2p1{
+	font-size: 35px;
+	font-family: "Raleway";
+	color: rgb(58, 77, 105);
+	text-transform: uppercase;
+}
+.b2p2{
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: rgb(131, 150, 159);
+	line-height: 1.643;
+	text-align: left;
+}
+.box-2 a{
+	font-size: 12px;
+	font-family: "Montserrat";
+	color: rgb(207, 207, 207);  
+	line-height: 5.833;
+	text-align: left;
+	text-decoration: none;
+}
+.box-2 a:hover { 
+	text-decoration: underline; /* Добавляем подчеркивание 
+							   при наведении курсора мыши на ссылку */
+}
+
+.first{
+	display:flex;
+	flex-direction:column;
+	margin-left:200px;
+	margin-right:200px;
+}
+
+.p0{
+	  font-size: 35px;
+	  font-family: "Raleway";
+	  color: rgb(58, 77, 105);
+	  text-transform: uppercase;
+	  line-height: 1.114;
+	  text-align: left;
+}
+
+
+.box34{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	
+}
+.box341{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	margin-top:100px;
+	margin-left:60px;
+	margin-right:60px;
+}
+.box-3 .box4{
+	display:flex;
+	flex-direction:column;
+	width:50%;
+	margin-right:10px;
+}
+
+.p1{
+	font-size: 18px;
+	font-family: "OpenSans";
+	color: rgb(182, 182, 182);
+	line-height: 1.5;
+	text-transform: none;
+}
+.p2{
+	font-size: 14px;
+	font-family: "OpenSans";
+	color: rgb(131, 150, 159);
+	line-height: 1.714;
+}
+.p3{
+	  font-size: 14px;
+	  font-family: "OpenSans";
+	  color: rgb(255, 255, 255);
+	  line-height: 1.714;
+}
+
+.second{
+	background-image: url(../img/fon.png);
+	background-size: cover;
+	width:100%;
+	height:818px;
+	display:flex;
+	align-items:flex-end;
+}
+
+.wordssuch{
+	background-image: url(../img/ws.png);
+	background-size: cover;
+	width:459px;
+	height:459px;
+	margin-left:200px;
+}
+.wordssuch p{
+	font-size: 60px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.167;
+	text-align: left;
+	margin-left:60px;
+}
+.forimg{
+	background-image: url(../img/fi.png);
+	background-size: cover;
+	width:459px;
+	height:459px;
+}
+
+
+.third{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	background-image: url(../img/fon2.png);
+	background-size: cover;
+	height:459px;
+	margin-left:200px;
+}
+
+
+.four{
+	background-image: url(../img/fon3.png);
+	background-size: cover;
+	display:flex;
+	margin-Left:200px;
+}
+.fcontent{
+	display:flex;
+	flex-direction:column;
+	margin:60px;
+}
+
+
+
+.five{
+	display:flex;
+	background-image: url(../img/just.png);
+	height:815px;
+	background-size: cover;
+	margin-left:200px;
+}
+.tap{
+	font-size: 35px;
+	font-family: "Raleway";
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	line-height: 1.114;
+	text-align: left;
+}
+input{
+	height:60px;
+	font-size: 12px;
+	font-family: "Montserrat";
+	color: rgb(131, 150, 159);
+	line-height: 1.917;
+	text-align: left;
+}
+.i1{
+	width:200px;
+}
+
+.btni{
+	flex:2;
+	height:60px;
+	width:150px;
+	font-size: 15px;
+	font-family: "Montserrat";
+	color: rgb(255, 255, 255);
+	line-height: 1.533;
+	text-align: center;
+	background-color: transparent;
+	border: 2px solid white;
+}
+.i2{
+	width:300px;
+}
+
+
+.six{
+	display:flex;
+	justify-content:flex-end;
+	align-content:center;
+	margin-Left:200px;
+	width:100%;
+}
+.box-26{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-content:flex-end;
+	margin-right:100px;
+}

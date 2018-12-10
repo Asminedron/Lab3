@@ -1,0 +1,12 @@
+.About___________Products____________Projects___ {
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 3.692;
+  text-align: right;
+  position: absolute;
+  left: 173.938px;
+  top: 54.502px;
+  z-index: 98;
+}

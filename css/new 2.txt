@@ -1,0 +1,47 @@
+.Header:_Nav {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 5662px;
+  z-index: 100;
+}
+.About___________Products____________Projects___ {
+  font-size: 13px;
+  font-family: "Raleway";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 3.692;
+  text-align: right;
+  position: absolute;
+  left: 173.938px;
+  top: 54.502px;
+  z-index: 98;
+}
+
+.Header:_Logo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1600px;
+  height: 5662px;
+  z-index: 96;
+}
+.Rectangle_14 {
+  background-color: rgb(242, 101, 34);
+  position: absolute;
+  left: 1516px;
+  top: 120px;
+  width: 34px;
+  height: 26px;
+  z-index: 95;
+}
+.trans {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 1526px;
+  top: 58px;
+  width: 19px;
+  height: 105px;
+  z-index: 94;
+}
